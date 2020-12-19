@@ -69,7 +69,7 @@ preprocessing data are as follows:
    system. This is done by using Python. In the text file, there will be one line
    per one document, each line has the following format:
    
-    \*<docID><TAB><title><TAB><ingredients><TAB><preparation>*\
+    * docID TAB title TAB ingredients TAB preparation> *
     
    Where<docID> is the document ID, <TAB> is a tab character, <title> is the raw text of the recipe's title, <ingredient> is the      raw text of the ingredient of the recipe, and <preparation> is the raw text of the preparation for the recipe.
   
