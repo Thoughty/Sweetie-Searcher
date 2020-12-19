@@ -62,19 +62,19 @@ preprocessing data are as follows:
    and Cheerio package. We separate the data into four fields composed of
    document ID, Recipe’s title, Ingredient, and Preparation. Then, export the data
    into a CSV file so that we can view the data more easily.
- ![Scraping Technique](/Sweetie-Searcher/WebScraping.PNG)
- ![Scraping CSV](/Sweetie-Searcher/ScrapingCSV.PNG)
+   ![Scraping Technique](/Sweetie-Searcher/WebScraping.PNG)
+   ![Scraping CSV](/Sweetie-Searcher/ScrapingCSV.PNG)
+   
  - Convert data in CSV file into text file to be able to be used in the search
    system. This is done by using Python. In the text file, there will be one line
    per one document, each line has the following format:
    
-   <docID><TAB><title><TAB><ingredients><TAB><preparation>
+   "<docID><TAB><title><TAB><ingredients><TAB><preparation>"
     
    Where<docID> is the document ID, <TAB> is a tab character, <title> is the raw text of the recipe's title, <ingredient> is the      raw text of the ingredient of the recipe, and <preparation> is the raw text of the preparation for the recipe.
   
- ![CSVtoText](/Sweetie-Searcher/CSVtoText.PNG)
- 
- ![TextFile](/Sweetie-Searcher/TextFile.PNG)
+   ![CSVtoText](/Sweetie-Searcher/CSVtoText.PNG)
+   ![TextFile](/Sweetie-Searcher/TextFile.PNG)
  
  - Once the data is preprocessed and constructs the inverted index, we let the
    users search our system. We receive a query from the user and use it to
