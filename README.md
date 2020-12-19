@@ -1,7 +1,7 @@
 # Sweetie-Searcher
 Simulated Search Engine for Dessert Recipe from Cookbook.com
 
-#Introduction
+# Introduction
   Sweetie is a search engine for dessert recipes to serve the purpose of searching
 a certain dessert recipe among a thousand recipes on the internet. As a matter of fact,
 there are ample dessert recipes on the internet, so it’s quite difficult to search for the
@@ -12,7 +12,7 @@ groups. People who begin to cook dessert on their own and pastry chefs who desir
 to seek new recipes for their bakery or restaurant.
 
 
-#Problem
+# Problem
   Due to the fact that there are plenty of dessert recipes in books as well as the
 internet, finding one desired recipe or other related recipes would be arduous and
 time-consuming. This problem also involves and affects our target customers.
@@ -31,7 +31,7 @@ can adjust to their recipes. Furthermore, they will also have an opportunity to 
 new recipes to be new menus in their bakery or restaurant.
 
 
-#Literature Review or Existing Relevant System
+# Literature Review or Existing Relevant System
   Our system is relevant to google search engines because it takes the input of
 word query or a long word query and searches for the similar document that has the
 same data as the input. This algorithm is widely used due to the accuracy of the
@@ -44,12 +44,12 @@ contrary, cookbook.com returns all documents by putting relevant documents on th
 first page and the others will be sorted alphabetically. 
 
 
-#Methodology
+# Methodology
   We used the web scraping technique to extract the data from the website in to CSV file and use data as a database of our system. After we had the database of the system, we categorized and formatted data for our search engine . Next, we will receive the query or input , which can be either dessert's name or an ingredient, from the user to search in the engine that we built. Our search engine uses the TF-IDF method to find the highest relevant score between the input and the database from our system. After all of the search, the top 10 match documents will be displayed to the user as the result of our search engine.
   
   
   
-#Implementation
+# Implementation
   
   To implement Sweetie search engine, we commence with gathering data from
 “www.cookbook.com”, which is our data source. After that we preprocess data to
