@@ -57,11 +57,14 @@ extract only significant data that will be used in the system. The processes of
 preprocessing data are as follows:
  
  - Go to the website and screen the data
- ![Cookbook's Website](/Sweetie-Searcher/Cookbook.PNG)
+ 
+   ![Cookbook's Website](/Sweetie-Searcher/Cookbook.PNG)
+   
  - Perform web scraping to extract data from the website by using JavaScript
    and Cheerio package. We separate the data into four fields composed of
    document ID, Recipe’s title, Ingredient, and Preparation. Then, export the data
    into a CSV file so that we can view the data more easily.
+   
    ![Scraping Technique](/Sweetie-Searcher/WebScraping.PNG)
    ![Scraping CSV](/Sweetie-Searcher/ScrapingCSV.PNG)
    
